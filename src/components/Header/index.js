@@ -9,28 +9,51 @@ import instagram from '../../assets/instagram.png';
 import { Container, Footer } from './styles';
 
 export default function Header() {
+
   return (
-    <Container>
+    <Container> 
+      
+      <header>
+        <img src={me} alt="" />
 
-      <img src={me} alt="" />
+        <span>Mateus dos Santos Lopes</span>
 
-      <span>Mateus dos Santos Lopes</span>
+        <small>Software Enginer</small>
+      </header>
+      
+      <nav>
+        <ul>
+          <li>
+            <Link to="/" activeStyle={{ color: "white" }}>Home</Link>
+          </li>
+          <li>
+           <Link to="/portifolio" activeStyle={{ color: "white" }}>Portifolio</Link>
+          </li>
+          <li>
+            <Link to="/contact" activeStyle={{ color: "white" }}>Contact</Link>
+          </li>
+        </ul>
+      </nav>
 
-      <small>Software Enginer</small>
 
-      <Link to="/">Home</Link>
-      <Link to="/education">Portifolio</Link>
-      <Link to="#">Contact</Link>
       <Footer>
-        <a href="https://github.com/mateuslopes92">
-          <img src={github} alt="github" />
-        </a>
-        <a href="https://www.linkedin.com/in/mateus-dos-santos-lopes-a8049815b/">
-          <img src={linkedin} alt="linkedin" />
-        </a>
-        <a href="https://www.instagram.com/mateuslopesskt">
-          <img src={instagram} alt="instagram" />
-        </a>
+        <ul>
+          <li>
+            <a href="https://github.com/mateuslopes92">
+              <img src={github} alt="github" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/mateus-dos-santos-lopes-a8049815b/">
+              <img src={linkedin} alt="linkedin" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/mateuslopesskt">
+              <img src={instagram} alt="instagram" />
+            </a>
+          </li>
+        </ul>
       </Footer>
     </Container>
   );
