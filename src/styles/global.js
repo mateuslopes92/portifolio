@@ -13,13 +13,17 @@ export default createGlobalStyle`
     outline: 0;
   }
 
-  html, body, #root {
+  html, body, #___gatsby {
     height: 100%;
   }
 
   body {
     -webkit-font-smoothing: antialiased;
     margin-left: 360px;
+
+    @media(max-width: 768px){
+      margin-left: 0px;
+    }
   }
 
   body, input, button {

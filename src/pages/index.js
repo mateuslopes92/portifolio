@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Footer from '../components/Footer';
-
 import { Container, Header, Section } from './styles.js';
 
 export default function index() {
@@ -16,12 +14,11 @@ export default function index() {
             <br />
             <h2>Software Enginer</h2>
             <p>
-            Hello. My name is Mateus, software developer since 2019, with experience in healthcare, education and apps for business. My current focus is building mobile apps solutions with react native and web apps with reactjs. In my spare time I always seek more knowledge.
+             Hello. My name is Mateus, software developer since 2019, with experience in healthcare, education and apps for business. My current focus is building mobile apps solutions with react native and web apps with reactjs. In my spare time I always seek more knowledge.
             </p>
           </div>
         </article>
       </Section>
-      <Footer />
     </Container>
   );
 }

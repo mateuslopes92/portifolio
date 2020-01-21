@@ -17,10 +17,6 @@ module.exports = {
       {
         name: 'linkedin',
         url: 'https://www.linkedin.com/in/mateus-dos-santos-lopes-a8049815b/'
-      },
-      {
-        name: 'instagram',
-        url: 'https://www.instagram.com/mateuslopesskt/'
       }
     ]
   },
@@ -30,7 +26,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
-        color: `tomato`,
+        color: `#7159c1`,
         showSpinner: false,
       },
     },

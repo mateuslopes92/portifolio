@@ -4,7 +4,6 @@ import {Link} from 'gatsby';
 import me from '../../assets/ME2.jpg';
 import github from '../../assets/github.png';
 import linkedin from '../../assets/linkedin.png';
-import instagram from '../../assets/instagram.png';
 
 import { Container, Footer } from './styles';
 
@@ -24,17 +23,16 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <Link to="/" activeStyle={{ color: "white" }}>Home</Link>
+            <Link to="/" activeStyle={{ color: "#7159c1" }}>Home</Link>
           </li>
           <li>
-           <Link to="/portifolio" activeStyle={{ color: "white" }}>Portifolio</Link>
+           <Link to="/portifolio" activeStyle={{ color: "#7159c1" }}>Portifolio</Link>
           </li>
           <li>
-            <Link to="/contact" activeStyle={{ color: "white" }}>Contact</Link>
+            <Link to="/contact" activeStyle={{ color: "#7159c1" }}>Contact</Link>
           </li>
         </ul>
       </nav>
-
 
       <Footer>
         <ul>
@@ -46,11 +44,6 @@ export default function Header() {
           <li>
             <a href="https://www.linkedin.com/in/mateus-dos-santos-lopes-a8049815b/">
               <img src={linkedin} alt="linkedin" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/mateuslopesskt">
-              <img src={instagram} alt="instagram" />
             </a>
           </li>
         </ul>
