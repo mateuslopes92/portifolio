@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-`;
+`
 
 export const Header = styled.div`
   display: flex;
@@ -18,7 +18,7 @@ export const Header = styled.div`
   background-position-x: 0px;
   background-position-y: 100%;
   background-size: cover;
-  
+
   h1 {
     position: absolute;
     top: 33%;
@@ -26,17 +26,21 @@ export const Header = styled.div`
     transform-origin: top left;
     font-size: 5.5em;
     color: #fff;
+
+    @media (max-width: 768px) {
+      font-size: 4em;
+    }
   }
-`;
+`
 
 export const Section = styled.section`
   display: block;
+  margin: 0 auto;
 
   article {
-    width: 685px;
+    max-width: 770px;
     height: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 
   div {
@@ -49,7 +53,8 @@ export const Section = styled.section`
       margin-top: 0.9625em;
       text-align: left;
       font-size: 3em;
-      color: #161510;
+      color: rgba(0, 0, 0, 0.7);
+
       margin-bottom: 0.5625em;
     }
 
@@ -60,6 +65,4 @@ export const Section = styled.section`
       font-weight: 700;
     }
   }
-`;
- 
-
+`

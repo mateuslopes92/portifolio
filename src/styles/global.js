@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components"
 
 export default createGlobalStyle`
 
@@ -20,6 +20,8 @@ export default createGlobalStyle`
   body {
     -webkit-font-smoothing: antialiased;
     margin-left: 360px;
+    background: #eee;
+
 
     @media(max-width: 768px){
       margin-left: 0px;
@@ -42,4 +44,4 @@ export default createGlobalStyle`
     cursor: pointer;
   }
 
-`;
+`
