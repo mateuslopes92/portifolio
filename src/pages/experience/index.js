@@ -114,7 +114,9 @@ export default function Experience() {
         </Description>
 
         <LinkTo>
-          <a href="#">A empresa não existe mais. </a>
+          <a href="http://www.softros.com.br/site/index.html">
+            Site da Softros Sistemas
+          </a>
         </LinkTo>
       </Card>
 
@@ -165,9 +167,7 @@ export default function Experience() {
         </Description>
 
         <LinkTo>
-          <a href="http://www.softros.com.br/site/index.html">
-            Site da Softros Sistemas
-          </a>
+          <a href="#">A empresa não existe mais. </a>
         </LinkTo>
       </Card>
       <Card>
